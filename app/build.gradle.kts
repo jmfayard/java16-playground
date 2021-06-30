@@ -9,6 +9,7 @@
 plugins {
     // Apply the application plugin to add support for building a CLI application in Java.
     application
+    kotlin("jvm")
 }
 
 java {
@@ -24,10 +25,10 @@ repositories {
 
 dependencies {
     // Use JUnit Jupiter for testing.
-    testImplementation("org.junit.jupiter:junit-jupiter:5.7.1")
+    testImplementation("org.junit.jupiter:junit-jupiter:_")
 
     // This dependency is used by the application.
-    implementation("com.google.guava:guava:30.1-jre")
+    implementation("com.google.guava:guava:_")
 }
 
 application {

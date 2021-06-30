@@ -7,5 +7,10 @@
  * in the user manual at https://docs.gradle.org/7.1/userguide/multi_project_builds.html
  */
 
+plugins {
+    // See https://jmfayard.github.io/refreshVersions
+    id("de.fayard.refreshVersions") version "0.10.1"
+}
+
 rootProject.name = "java16-playground"
 include("app")
