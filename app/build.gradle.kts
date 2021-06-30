@@ -26,6 +26,7 @@ repositories {
 dependencies {
     // Use JUnit Jupiter for testing.
     testImplementation("org.junit.jupiter:junit-jupiter:_")
+    testImplementation("org.assertj:assertj-core:_")
 
     // This dependency is used by the application.
     implementation("com.google.guava:guava:_")
