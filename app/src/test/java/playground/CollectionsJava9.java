@@ -17,8 +17,8 @@ public class CollectionsJava9 {
 
     @Test
     void setOf() {
-        Set<Integer> integers = Set.of(2, 2, 6);
-        assertThat(integers).containsExactly(2, 6);
+        Set<Integer> integers = Set.of(2, 6);
+        assertThat(integers).containsExactlyInAnyOrder(2, 6);
     }
 
     @Test
