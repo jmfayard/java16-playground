@@ -30,6 +30,7 @@ dependencies {
 
     // This dependency is used by the application.
     implementation("com.google.guava:guava:_")
+    implementation(Kotlin.stdlib.jdk8)
 }
 
 application {
