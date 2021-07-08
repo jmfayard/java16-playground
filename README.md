@@ -4,7 +4,9 @@
 
 Playground project demonstrating the new features from Java 8 to Java 16
 
-References:
+See article: [Practice what's new in Java](https://dev.to/jmfayard/practice-what-s-new-in-java-1j09)
 
-- https://dev.to/awwsmm/20-reasons-to-move-on-from-java-8-1dio
-- https://dev.to/pmgysel/from-java-8-to-java-15-in-ten-minutes-22f7
+Contributions welcome, [see open issues](https://github.com/jmfayard/java16-playground/issues)
+
+Reference: https://dev.to/awwsmm/20-reasons-to-move-on-from-java-8-1dio
+
