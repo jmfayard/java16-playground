@@ -12,14 +12,15 @@ public class StreamsJava8 {
     void map() {
         List<Integer> squares = Stream.of(1, 2, 4)
                 .map(integer -> integer * integer)
-                .collect(Collectors.toList());
+                .toList();
         assertThat(squares).containsExactly(1, 4, 16);
     }
 
     @Test
     void joining() {
         Stream<String> words = Stream.of("un", "deux", "trois");
-        String joined = words.collect(Collectors.joining("', '", "['", "']"));
+        String joined = words
+                .collect(Collectors.joining("', '", "['", "']"));
         assertThat(joined).isEqualTo("['un', 'deux', 'trois']");
     }
 }
