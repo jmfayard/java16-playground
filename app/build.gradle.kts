@@ -39,6 +39,7 @@ application {
     mainClass.set("playground.App")
 }
 
+
 tasks.test {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
