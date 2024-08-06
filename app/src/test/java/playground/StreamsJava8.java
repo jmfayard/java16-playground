@@ -14,6 +14,12 @@ public class StreamsJava8 {
                 .map(integer -> integer * integer)
                 .collect(Collectors.toList());
         assertThat(squares).containsExactly(1, 4, 16);
+    }
 
+    @Test
+    void joining() {
+        Stream<String> words = Stream.of("un", "deux", "trois");
+        String joined = words.collect(Collectors.joining("', '", "['", "']"));
+        assertThat(joined).isEqualTo("['un', 'deux', 'trois']");
     }
 }
